@@ -7,8 +7,5 @@ contract VRGERC20 is ERC20{
     constructor() ERC20("VedantERC201", "VRG20"){
         _mint(msg.sender, 20000);
     }
-    function decimals() public view virtual override returns(uint8)
-    {
-        return 0;
-    }
+    
 }
